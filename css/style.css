@@ -1,7 +1,3 @@
-/* icon
-user
-bag
-hearts */
 
 *{
     box-sizing: border-box;
@@ -30,6 +26,13 @@ header, main ul{
 .container{
     width: 1180px;
     margin: auto;
+}
+
+.p-fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 .p-abs{
@@ -110,11 +113,6 @@ header, main ul{
 
 /* HEADER */
 
-header> .container{
-    position: fixed;
-    top: 0;
-    left: 0;
-}
 
 header ul{
     align-items: center;
