@@ -22,6 +22,11 @@ body{
 
 /* UTILITY */
 
+header, main ul{
+    list-style: none;
+    
+}
+
 .container{
     width: 1180px;
     margin: auto;
@@ -35,6 +40,10 @@ body{
     display:flex;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 .justify-around{
     justify-content: space-around;
 }
@@ -42,6 +51,16 @@ body{
 .justify-between{
     justify-content: space-between;
 }
+
+.justify-center{
+    justify-content: center;
+
+}
+
+.row-gap{
+    gap: 3rem 1rem;
+}
+
 
 .align-content{
     align-content: center;
@@ -114,19 +133,19 @@ header li{
 
 
 .img-card > .alpha, .beta{
-    height: 500px;
+    height: 450px;
     display: block;
 }
 
 .img-card > .alpha{
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     
 }
 
 .img-card > .beta{
-    position: absolute;
+    position: relative;
     top:0;
     left:0;
 }
@@ -140,10 +159,6 @@ header li{
     position: relative;
 }
 
-.brand, .clothing, .price{
-    list-style: none;
-    
-}
 
 
 /* MAIN ABSOLUTE */
