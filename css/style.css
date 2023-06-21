@@ -1,5 +1,26 @@
+/* icon
+user
+bag
+hearts */
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/* classe debug */
+.debug *{
+    border: 1px dashed black;
+    min-height: 100px;
+    background-color: lightgray;
+}
+
+/* UTILITY */
+
+.container{
+    width: 1180px;
+    margin: auto;
+    
+
 }
