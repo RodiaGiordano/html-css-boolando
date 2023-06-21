@@ -12,35 +12,60 @@
     <title>Boolando</title>
 </head>
 <body class="debug">
-    <header class="container flex justify-around"> <!-- header fixed link logo icone -->
+    <header class="container flex justify-around">
         <!-- lista sezioni sito -->
+        <ul class="flex">
+            <li>Donna</li>
+            <li>Uomo</li>
+            <li>Bambino</li>
+        </ul>
         
-            <ul class="flex">
-                <li>Donna</li>
-                <li>Uomo</li>
-                <li>Bambino</li>
-            </ul>
-        
-
         <!-- logo -->
+
         <img class="logo flex" src="./img/boolean-logo.png" alt="logo-boolean">
         
-
         <!-- lista icone -->
-        
-            <ul class="flex">
-                <li><i class="fa-regular fa-user"></i></li>
-                <li><i class="fa-regular fa-heart"></i></li>
-                <li><i class="fa-solid fa-bag-shopping"></i></li>
-            </ul>
-        
 
-
-
-
+        <ul class="flex">
+            <li><i class="fa-regular fa-user"></i></li>
+            <li><i class="fa-regular fa-heart"></i></li>
+            <li><i class="fa-solid fa-bag-shopping"></i></li>
+        </ul>  
     </header>
-    <main>
-        <!-- contenitore delle card -->
+    <main class="container flex justify-around"> <!-- contenitore delle card -->
+         
+        <div class="card">
+
+            <div class="img-card layer">
+                <img class="alpha" src="./img/1.webp" alt="uomo1">
+                <img class="beta" src="./img/1b.webp" alt="uomo2">
+            
+                <div class="discount p-abs f-small">
+                    -50%             
+                </div>
+                <div class="sustainability p-abs">Sostenibilità</div>
+                <div class="hearts p-abs">&hearts;</div>
+            </div>
+            
+            <!-- LISTA INFORMAZIONI ABBIGLIAMENTO -->
+            <div class="list-information">
+                <ul>
+                    <li class="brand f-small">Levi'</li>
+                    <li class="clothing f-bold">RELAXED FIT TEE UNISEX</li>
+                    <li class="price f-small f-bold">14,99€ 
+                        <span class="c-red f-through">29,99€</span>
+                    </li>
+                </ul>
+            </div> 
+            
+            
+
+                
+            
+            
+        </div>
+
+
     </main>
     <footer>
         <!-- nome azienda, link informativi, icone  -->

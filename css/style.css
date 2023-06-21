@@ -13,6 +13,7 @@ hearts */
 .debug *{
     border: 1px dashed black;
     background-color: lightgray;
+    
 }
 
 /* UTILITY */
@@ -21,6 +22,10 @@ hearts */
     width: 1180px;
     margin: auto;
     
+}
+
+.p-abs{
+    position: absolute;
 }
 
 .flex{
@@ -43,6 +48,30 @@ hearts */
     align-items: center;
 }
 
+/* UTILITY FONT */
+
+.f-small{
+    font-size: small;
+}
+
+.f-bold{
+    font-weight: bold;
+}
+
+.f-through{
+    text-decoration: line-through;
+}
+
+
+/* COLOR PALETTE */
+
+.c-red{
+    color: red;
+}
+
+
+
+
 
 
 /* HEADER */
@@ -62,13 +91,44 @@ header li{
     padding: 0 .5rem
 }
 
-
-
-
-
-
 .logo{
-    height: 30px;
-    
+    height: 30px;  
+}
+
+/* MAIN */
+
+
+.img-card> .alpha, .beta{
+    height: 400px;
+    display: block;
+}
+
+.img-card> .beta{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.layer{
+    position: relative;
+}
+
+.brand, .clothing, .price{
+    list-style: none;
     
 }
+
+
+/* MAIN ABSOLUTE */
+
+.discount{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    padding: 2px 5px;
+
+    background-color: red;
+    color: white;
+    
+}
+
