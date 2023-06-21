@@ -9,12 +9,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* classe debug */
-.debug *{
+/* .classe debug */ 
+/* .debug *{
     border: 1px dashed black;
     background-color: lightgray;
     
-}
+}  */
 
 /* UTILITY */
 
@@ -24,13 +24,14 @@ header, main ul{
 }
 
 .container{
-    width: 1180px;
+    width: 100%;
     margin: auto;
 }
 
 .p-fixed{
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: 2;
 }
@@ -113,10 +114,13 @@ header, main ul{
 
 /* HEADER */
 
-
-header ul{
-    align-items: center;
+header{
+    background-color: orangered;
+    height: 45px;
+    min-width: 1180px;
+    color: white;
 }
+
 
 header li{
     display: inline-block;
@@ -125,10 +129,14 @@ header li{
 
 .logo{
     height: 30px;  
+
 }
 
 /* MAIN */
 
+main{
+    padding: 100px 0;
+}
 
 .img-card > .alpha, .beta{
     height: 450px;
