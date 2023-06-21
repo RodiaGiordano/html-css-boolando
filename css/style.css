@@ -18,13 +18,13 @@ body{
 
 /* UTILITY */
 
-header, main ul{
+header, main, ul{
     list-style: none;
     
 }
 
 .container{
-    width: 100%;
+    width: 1180px;
     margin: auto;
 }
 
@@ -59,6 +59,10 @@ header, main ul{
 .justify-center{
     justify-content: center;
 
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
 }
 
 .row-gap{
@@ -101,6 +105,10 @@ header, main ul{
 
 .bg-white{
     background-color: whitesmoke;
+}
+
+.bg-almostblack{
+    background-color: rgb(35, 32, 32);
 }
 
 .c-red{
@@ -201,5 +209,25 @@ main{
 }
 
 
+/* FOOTER */
 
+footer{
+    align-items: end;
+    padding: 50px 0;
+    color: white;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+footer.footer-gap{
+
+    gap: 40%;
+}
 
